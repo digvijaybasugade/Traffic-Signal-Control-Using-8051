@@ -82,7 +82,7 @@ void lcd_init(void)
 	lcd_cmd(0X38);
 	lcd_cmd(0X01);
 	lcd_cmd(0X80);
-	lcd_cmd(0X0F);
+	lcd_cmd(0X0C);
 }
 void lcd_cmd(unsigned char c)
 {
